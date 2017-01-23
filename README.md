@@ -5,7 +5,7 @@
 * Sass
 * gulp.js
 
-##### Getting Started
+### Getting Started
 Click the green button labeled 'Clone or download' and select 'Download ZIP'.
 
 Once you have the files somewhere and you are happy with; open up Terminal and navigate to the folder you have placed the files.
