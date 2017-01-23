@@ -1,9 +1,12 @@
 # Web Application Boilerplate
 
-### Frameworks used:
-* node.js
-* Sass
-* gulp.js
+### Frameworks/Plugins included:
+* [node.js](https://nodejs.org/en/)
+* [Sass](http://sass-lang.com/)
+* [gulp.js](http://gulpjs.com/)
+* [Bootstrap](http://getbootstrap.com/)
+* [jQuery](https://jquery.com/)
+* [Font Awesome](http://fontawesome.io/)
 
 ### Getting Started
 Click the green button labeled 'Clone or download' and select 'Download ZIP'.
