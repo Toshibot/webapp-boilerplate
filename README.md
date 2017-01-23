@@ -6,7 +6,7 @@
 * [gulp.js](http://gulpjs.com/)
 
 ### Frameworks/Plugins included:
-* [Bootstrap](http://getbootstrap.com/)
+* [UI Kit](https://getuikit.com)
 * [jQuery](https://jquery.com/)
 * [Font Awesome](http://fontawesome.io/)
 
