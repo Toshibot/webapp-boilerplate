@@ -1,4 +1,13 @@
 .o-footer {
     height: $footer-height;
     clear: both;
+    background: $black;
+    color: $white;
+    padding-top: $base;
+
+	&__content {
+		width: $width-m;
+        margin: 0 auto;
+        text-align: left;
+	}
 }

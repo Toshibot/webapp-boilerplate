@@ -94,6 +94,12 @@ body {
       @media (max-width: 1024px) {
         .o-width-full--no-pad\@sm {
           padding: 0; } }
+  .o-width-1-2 {
+    width: 50%;
+    float: left; }
+  .o-width-1-3 {
+    width: 33%;
+    float: left; }
   @media (min-width: 1024px) {
     .o-width {
       width: 980px; } }
@@ -266,16 +272,24 @@ body {
 
 .o-footer {
   height: 100px;
-  clear: both; }
+  clear: both;
+  background: #333;
+  color: #fff;
+  padding-top: 25px; }
+  .o-footer__content {
+    width: 980px;
+    margin: 0 auto;
+    text-align: left; }
 
 .o-main {
   min-height: 100%;
   height: auto !important;
   margin-bottom: -100px; }
-
-.o-clearfooter {
-  clear: both;
-  height: 100px; }
+  .o-main:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 100px; }
 
 .c-info {
   width: 605px;
@@ -340,7 +354,8 @@ body {
     display: inline-block;
     font-size: 25px;
     height: 25px;
-    line-height: 25px; }
+    line-height: 25px;
+    vertical-align: text-bottom; }
   .c-button span {
     height: 25px;
     line-height: 25px;
