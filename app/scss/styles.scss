@@ -4,6 +4,7 @@
 @import '_variables/_widths.scss';
 @import '_variables/_breakpoints.scss';
 @import '_variables/_colors.scss';
+@import '_variables/_heights.scss';
 
 // Mixins
 @import '_mixins/_cosmetic.scss';
@@ -26,6 +27,9 @@
 @import '_objects/_shape.scss';
 @import '_objects/_divider.scss';
 @import '_objects/_bullet.scss';
+@import '_objects/_footer.scss';
+@import '_objects/_main.scss';
+@import '_objects/_clearfooter.scss';
 
 // Components
 @import '_components/_info.scss';

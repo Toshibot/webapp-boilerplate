@@ -54,6 +54,9 @@ table {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+html, body {
+  height: 100%; }
+
 body {
   font-family: "Lato", sans-serif;
   background: #efefef;
@@ -260,6 +263,19 @@ body {
 @media (max-width: 1024px) {
   .o-bullet {
     display: block; } }
+
+.o-footer {
+  height: 100px;
+  clear: both; }
+
+.o-main {
+  min-height: 100%;
+  height: auto !important;
+  margin-bottom: -100px; }
+
+.o-clearfooter {
+  clear: both;
+  height: 100px; }
 
 .c-info {
   width: 605px;
