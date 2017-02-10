@@ -1,7 +1,7 @@
 .o-content {
 	width: $width-m;
 	margin: 0 auto;
-	color: $black;
+	color: $color-black;
 	@include borderBox;
 
 	@media (max-width: $break-s) {
@@ -10,7 +10,7 @@
 
 	h1 {
 		font-size: 32px;
-		font-family: $heading;
+		font-family: $font-heading;
 		font-weight: 600;
 		line-height: $base-lg;
 		margin-bottom: $base-xs;
@@ -21,7 +21,7 @@
 	}
 
 	h2 {
-		font-family: $heading;
+		font-family: $font-heading;
 		font-size: 48px;
 		text-transform: uppercase;
 		font-weight: 400;
@@ -38,11 +38,11 @@
 	}
 
 	h3 {
-		font-family: $heading;
+		font-family: $font-heading;
 	}
 	
 	p {
-		font-family: $body-font;
+		font-family: $font-body;
 		font-size: 16px;
 		line-height: $base;
 		margin-bottom: $base;
@@ -51,7 +51,7 @@
 	a,
 	a:link,
 	a:visited {
-		color: $blue;
+		color: $color-blue;
 		@include transition(0.3s);
 
 		&:hover {
@@ -75,7 +75,7 @@
 
 	&--alt-heading {
 		text-transform: none !important;
-		font-family: $script !important;
+		font-family: $font-script !important;
 		margin-bottom: 0 !important;	
 		height: $base-lg*2;
 		line-height: $base-lg*2+$base !important;
@@ -92,31 +92,31 @@
 	}
 
 	&--white {
-		background: $white;
+		background: $color-white;
 		padding: $base-lg $base;
 		margin-top: $base-lg;
 		@include transition(0.3s);
-		@include boxShadow(5, $black);
+		@include boxShadow(5, $color-black);
 
 		&:hover {
-			@include boxShadow(9, $black);
+			@include boxShadow(9, $color-black);
 		}
 	}
 
 	&--dark {
 
 		h1, h2, h3 {
-			color: $white;
+			color: $color-white;
 			line-height: 32px;
 		}
 
 		a,
 		a:link,
 		a:visited {
-			color: rgba($white, 0.5);
+			color: rgba($color-white, 0.5);
 
 			&:hover {
-				color: $white;
+				color: $color-white;
 			}
 		}
 

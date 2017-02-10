@@ -1,8 +1,8 @@
 .o-footer {
-    height: $footer-height;
+    height: $height-footer;
     clear: both;
-    background: $black;
-    color: $white;
+    background: $color-black;
+    color: $color-white;
     padding-top: $base;
 
 	&__content {
