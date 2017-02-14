@@ -5,15 +5,15 @@
 	@include borderBox;
 
 	@media (max-width: $break-s) {
-		padding: 0 $base;
+		padding: 0 $size-base;
 	}
 
 	h1 {
 		font-size: 32px;
 		font-family: $font-heading;
 		font-weight: 600;
-		line-height: $base-lg;
-		margin-bottom: $base-xs;
+		line-height: $size-base-lg;
+		margin-bottom: $size-base-xs;
 
 		@media (max-width: $break-s) {
 			line-height: 35px;
@@ -25,14 +25,14 @@
 		font-size: 48px;
 		text-transform: uppercase;
 		font-weight: 400;
-		line-height: $base-lg;
-		margin-bottom: $base;
+		line-height: $size-base-lg;
+		margin-bottom: $size-base;
 
 		@media (max-width: $break-s) {
 			line-height: 35px;
 
 			&.country {
-				line-height: $base-lg;
+				line-height: $size-base-lg;
 			}
 		}
 	}
@@ -44,8 +44,8 @@
 	p {
 		font-family: $font-body;
 		font-size: 16px;
-		line-height: $base;
-		margin-bottom: $base;
+		line-height: $size-base;
+		margin-bottom: $size-base;
 	}
 
 	a,
@@ -77,24 +77,24 @@
 		text-transform: none !important;
 		font-family: $font-script !important;
 		margin-bottom: 0 !important;	
-		height: $base-lg*2;
-		line-height: $base-lg*2+$base !important;
+		height: $size-base-lg*2;
+		line-height: $size-base-lg*2+$size-base !important;
 
 		@media (max-width: $break-s) {
-			line-height: $base-lg+$base !important;
+			line-height: $size-base-lg+$size-base !important;
 			font-size: 50px !important;
 			height: auto !important;
 		}
 
 		@media (max-width: $break-xs) {
-			line-height: $base-lg !important;
+			line-height: $size-base-lg !important;
 		}
 	}
 
 	&--white {
 		background: $color-white;
-		padding: $base-lg $base;
-		margin-top: $base-lg;
+		padding: $size-base-lg $size-base;
+		margin-top: $size-base-lg;
 		@include transition(0.3s);
 		@include boxShadow(5, $color-black);
 
@@ -121,7 +121,7 @@
 		}
 
 		@media (max-width: $break-s) {
-			padding: $base 15px;
+			padding: $size-base 15px;
 		}
 	}
 }

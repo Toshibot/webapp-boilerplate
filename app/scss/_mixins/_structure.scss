@@ -1,0 +1,31 @@
+// Flexbox
+@mixin flexSize($percentage) {
+    -ms-flex-preferred-size: $percentage;
+    -webkit-flex-basis: $percentage;
+    flex-basis: $percentage;
+    max-width: $percentage;
+}
+
+// Flex Breakpoints
+@mixin flexSmall($percentage) {
+    @media only screen and (max-width: $break-s) {
+        @include flexSize($percentage);
+    }
+}
+
+@mixin flexMedium($percentage) {
+    @media only screen and (max-width: $break-m) {
+        @include flexSize($percentage);
+    }
+}
+
+@mixin flexLarge($percentage) {
+    @media only screen and (min-width: $break-m) {
+        @include flexSize($percentage);
+    }
+}
+
+// Flex Offset
+@mixin flexOffset() {
+
+}

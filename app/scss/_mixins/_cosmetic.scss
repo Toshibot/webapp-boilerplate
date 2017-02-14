@@ -25,6 +25,6 @@
 // Breakpoint 100% Width
 @mixin breakFull($i) {
 	@media (max-width: $i) {
-		width: 100%;
+		width: $width-12;
 	}
 }

@@ -2,8 +2,8 @@
 	
 	&--dotted {
 		height: 10px;
-		width: 100%;
-		margin: $base-s 0 $base;
+		width: $width-12;
+		margin: $size-base-s 0 $size-base;
 		background: url('../img/dotted-line.png') repeat-x transparent;
 		background-size: 41px 21px;
 
@@ -15,9 +15,9 @@
 
 	&--deco {
 		background: url('../img/divider-deco.png') no-repeat center center transparent;
-		height: $base;
-		width: 100%;
-		margin: $base 0;
+		height: $size-base;
+		width: $width-12;
+		margin: $size-base 0;
 
 		@media (-webkit-min-device-pixel-ratio: 2),
 		(min-resolution: 192dpi) {
@@ -25,7 +25,7 @@
 		}
 
 		@media (max-width: $break-s) {
-			margin: $base-s 0;
+			margin: $size-base-s 0;
 		}
 	}
 
@@ -35,7 +35,7 @@
 		height: 225px;
 		display: inline-block;
 		float: left; // Ignore linting
-		margin: 0 $base;
+		margin: 0 $size-base;
 
 		@media (max-width: $break-s) {
 			display: none;

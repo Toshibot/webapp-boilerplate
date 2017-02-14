@@ -6,15 +6,15 @@
 	 @include borderBox;
 
     @media (max-width: $break-s) {
-    		width: 100%;
+    		width: $width-12;
     		height: auto;
-    		padding: 0 $base;
+    		padding: 0 $size-base;
     		text-align: center;
     }
 
     &__mobile {
     	display: none;
-    	width: 100%;
+    	width: $width-12;
 
     	@media (max-width: $break-xs) and (orientation: portrait) {
     		display: block;

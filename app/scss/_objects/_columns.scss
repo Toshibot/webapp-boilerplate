@@ -1,0 +1,494 @@
+// ==========================================================================
+// Column
+// ==========================================================================
+
+// These column classes require being placed in an element 
+// with the 'o-flex' class
+
+.o-col {
+
+    * {
+        box-sizing: border-box;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        -webkit-box-flex: 0;
+        flex: 0 0 auto;
+    }
+
+    &-12 {
+        @include flexSize($width-12);
+    }
+
+    &-11 {
+        @include flexSize($width-11);
+    }
+
+    &-10 {
+        @include flexSize($width-10);
+    }
+
+    &-9 {
+        @include flexSize($width-9);
+    }
+
+    &-8 {
+        @include flexSize($width-8);
+    }
+
+    &-7 {
+        @include flexSize($width-7);
+    }
+
+    &-6 {
+        @include flexSize($width-6);
+    }
+
+    &-5 {
+        @include flexSize($width-5);
+    }
+
+    &-4 {
+        @include flexSize($width-4);
+    }
+
+    &-3 {
+        @include flexSize($width-3);
+    }
+
+    &-2 {
+        @include flexSize($width-2);
+    }
+
+    &-1 {
+        @include flexSize($width-1);
+    }
+
+//
+// Column Responsve - Large '@lg'
+// ==========================================================================
+
+    &-12\@lg {
+        @include flexLarge($width-12);
+    }
+
+    &-11\@lg {
+        @include flexLarge($width-11);
+    }
+
+    &-10\@lg {
+        @include flexLarge($width-10);
+    }
+
+    &-9\@lg {
+        @include flexLarge($width-9);
+    }
+
+    &-8\@lg {
+        @include flexLarge($width-8);
+    }
+
+    &-7\@lg {
+        @include flexLarge($width-7);
+    }
+
+    &-6\@lg {
+        @include flexLarge($width-6);
+    }
+
+    &-5\@lg {
+        @include flexLarge($width-5);
+    }
+
+    &-4\@lg {
+        @include flexLarge($width-4);
+    }
+
+    &-3\@lg {
+        @include flexLarge($width-3);
+    }
+
+    &-2\@lg {
+        @include flexLarge($width-2);
+    }
+
+    &-1\@lg {
+        @include flexLarge($width-1);
+    }
+
+//
+// Column Responsive - Medium '@md'
+// ==========================================================================
+
+    &-12\@md {
+        @include flexMedium($width-12);
+    }
+
+    &-11\@md {
+        @include flexMedium($width-11);
+    }
+
+    &-10\@md {
+        @include flexMedium($width-10);
+    }
+
+    &-9\@md {
+        @include flexMedium($width-9);
+    }
+
+    &-8\@md {
+        @include flexMedium($width-8);
+    }
+
+    &-7\@md {
+        @include flexMedium($width-7);
+    }
+
+    &-6\@md {
+        @include flexMedium($width-6);
+    }
+
+    &-5\@md {
+        @include flexMedium($width-5);
+    }
+
+    &-4\@md {
+        @include flexMedium($width-4);
+    }
+
+    &-3\@md {
+        @include flexMedium($width-3);
+    }
+
+    &-2\@md {
+        @include flexMedium($width-2);
+    }
+
+    &-1\@md {
+        @include flexMedium($width-1);
+    }
+
+//
+// Column Responsive - Small '@sm'
+// ==========================================================================
+
+    &-12\@sm {
+        @include flexSmall($width-12);
+    }
+
+    &-11\@sm {
+        @include flexSmall($width-11);
+    }
+
+    &-10\@sm {
+        @include flexSmall($width-10);
+    }
+
+    &-9\@sm {
+        @include flexSmall($width-9);
+    }
+
+    &-8\@sm {
+        @include flexSmall($width-8);
+    }
+
+    &-7\@sm {
+        @include flexSmall($width-7);
+    }
+
+    &-6\@sm {
+        @include flexSmall($width-6);
+    }
+
+    &-5\@sm {
+        @include flexSmall($width-5);
+    }
+
+    &-4\@sm {
+        @include flexSmall($width-4);
+    }
+
+    &-3\@sm {
+        @include flexSmall($width-3);
+    }
+
+    &-2\@sm {
+        @include flexSmall($width-2);
+    }
+
+    &-1\@sm {
+        @include flexSmall($width-1);
+    }
+
+// ==========================================================================
+// Offset
+// ==========================================================================
+    
+    &-offset {
+
+        * {
+            float: right;
+        }
+
+//
+// Offset - Base
+// ==========================================================================
+
+        &-12 {
+            // Redundant
+        }
+
+        &-11 {
+            margin-left: $width-11;
+        }
+
+        &-10 {
+            margin-left: $width-10;
+        }
+
+        &-9 {
+            margin-left: $width-9;
+        }
+
+        &-8 {
+            margin-left: $width-8;
+        }
+
+        &-7 {
+            margin-left: $width-7;
+        }
+
+        &-6 {
+            margin-left: $width-6;
+        }
+
+        &-5 {
+            margin-left: $width-5;
+        }
+
+        &-4 {
+            margin-left: $width-4;
+        }
+
+        &-3 {
+            margin-left: $width-3;
+        }
+
+        &-2 {
+            margin-left: $width-2;
+        }
+
+        &-1 {
+            margin-left: $width-1;
+        }
+
+//
+// Offset Responsive - Large '@lg'
+// ==========================================================================
+
+        &-11\@lg {
+            @media only screen and (min-width: $break-m) {
+                margin-left: $width-11;
+            }
+        }
+
+        &-10\@lg {
+            @media only screen and (min-width: $break-m) {
+                margin-left: $width-10;
+            }
+        }
+
+        &-9\@lg {
+            @media only screen and (min-width: $break-m) {
+                margin-left: $width-9;
+            }
+        }
+
+        &-8\@lg {
+            @media only screen and (min-width: $break-m) {
+                margin-left: $width-8;
+            }
+        }
+
+        &-7\@lg {
+            @media only screen and (min-width: $break-m) {
+                margin-left: $width-7;
+            }
+        }
+
+        &-6\@lg {
+            @media only screen and (min-width: $break-m) {
+                margin-left: $width-6;
+            }
+        }
+
+        &-5\@lg {
+            @media only screen and (min-width: $break-m) {
+                margin-left: $width-5;
+            }
+        }
+
+        &-4\@lg {
+            @media only screen and (min-width: $break-m) {
+                margin-left: $width-4;
+            }
+        }
+
+        &-3\@lg {
+            @media only screen and (min-width: $break-m) {
+                margin-left: $width-3;
+            }
+        }
+
+        &-2\@lg {
+            @media only screen and (min-width: $break-m) {
+                margin-left: $width-2;
+            }
+        }
+
+        &-1\@lg {
+            @media only screen and (min-width: $break-m) {
+                margin-left: $width-1;
+            }
+        }
+
+//
+// Offset Responsive - Medium '@md'
+// ==========================================================================
+
+        &-11\@md {
+            @media only screen and (max-width: $break-m) {
+                margin-left: $width-11;
+            }
+        }
+
+        &-10\@md {
+            @media only screen and (max-width: $break-m) {
+                margin-left: $width-10;
+            }
+        }
+
+        &-9\@md {
+            @media only screen and (max-width: $break-m) {
+                margin-left: $width-9;
+            }
+        }
+
+        &-8\@md {
+            @media only screen and (max-width: $break-m) {
+                margin-left: $width-8;
+            }
+        }
+
+        &-7\@md {
+            @media only screen and (max-width: $break-m) {
+                margin-left: $width-7;
+            }
+        }
+
+        &-6\@md {
+            @media only screen and (max-width: $break-m) {
+                margin-left: $width-6;
+            }
+        }
+
+        &-5\@md {
+            @media only screen and (max-width: $break-m) {
+                margin-left: $width-5;
+            }
+        }
+
+        &-4\@md {
+            @media only screen and (max-width: $break-m) {
+                margin-left: $width-4;
+            }
+        }
+
+        &-3\@md {
+            @media only screen and (max-width: $break-m) {
+                margin-left: $width-3;
+            }
+        }
+
+        &-2\@md {
+            @media only screen and (max-width: $break-m) {
+                margin-left: $width-2;
+            }
+        }
+
+        &-1\@md {
+            @media only screen and (min-width: $break-m) {
+                margin-left: $width-1;
+            }
+        }
+
+//
+// Offset Responsive - Small '@sm'
+// ==========================================================================
+
+        &-11\@sm {
+            @media only screen and (max-width: $break-s) {
+                margin-left: $width-11;
+            }
+        }
+
+        &-10\@sm {
+            @media only screen and (max-width: $break-s) {
+                margin-left: $width-10;
+            }
+        }
+
+        &-9\@sm {
+            @media only screen and (max-width: $break-s) {
+                margin-left: $width-9;
+            }
+        }
+
+        &-8\@sm {
+            @media only screen and (max-width: $break-s) {
+                margin-left: $width-8;
+            }
+        }
+
+        &-7\@sm {
+            @media only screen and (max-width: $break-s) {
+                margin-left: $width-7;
+            }
+        }
+
+        &-6\@sm {
+            @media only screen and (max-width: $break-s) {
+                margin-left: $width-6;
+            }
+        }
+
+        &-5\@sm {
+            @media only screen and (max-width: $break-s) {
+                margin-left: $width-5;
+            }
+        }
+
+        &-4\@sm {
+            @media only screen and (max-width: $break-s) {
+                margin-left: $width-4;
+            }
+        }
+
+        &-3\@sm {
+            @media only screen and (max-width: $break-s) {
+                margin-left: $width-3;
+            }
+        }
+
+        &-2\@sm {
+            @media only screen and (max-width: $break-s) {
+                margin-left: $width-2;
+            }
+        }
+
+        &-1\@sm {
+            @media only screen and (max-width: $break-s) {
+                margin-left: $width-1;
+            }
+        }
+    }
+}
