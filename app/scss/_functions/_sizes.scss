@@ -8,5 +8,5 @@
 // PX to EMs
 @function toEms($size) {
     $emSize: $size / $size-font-body;
-    @return #{emSize}em;
+    @return #{$emSize}em;
 }
