@@ -10,4 +10,16 @@
         margin: 0 auto;
         text-align: left;
 	}
+
+    &__subtext {
+        text-align: center;
+        color: $color-grey;
+        padding-top: $size-base;
+        font-size: 12px;
+
+        a {
+            color: $color-grey;
+            text-decoration: none;
+        }
+    }
 }
