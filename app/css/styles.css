@@ -783,10 +783,17 @@ body {
   background: #333;
   color: #fff;
   padding-top: 25px; }
+  @media only screen and (max-width: 64em) {
+    .o-footer {
+      height: auto;
+      padding: 50px 0; } }
   .o-footer__content {
     width: 61.25em;
     margin: 0 auto;
     text-align: left; }
+    @media only screen and (max-width: 64em) {
+      .o-footer__content {
+        width: 100%; } }
   .o-footer__subtext {
     text-align: center;
     color: #999;
@@ -805,6 +812,14 @@ body {
     display: block;
     clear: both;
     height: 100px; }
+
+.o-vert-center {
+  height: 100%;
+  position: relative; }
+  .o-vert-center__object {
+    display: block;
+    margin: 0;
+    line-height: 1; }
 
 .c-info {
   width: 605px;

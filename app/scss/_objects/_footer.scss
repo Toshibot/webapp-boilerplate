@@ -5,10 +5,19 @@
     color: $color-white;
     padding-top: $size-base;
 
+    @media only screen and (max-width: $break-s) {
+        height: auto;
+        padding: $size-base-lg 0;
+    }
+
 	&__content {
 		width: $width-m;
         margin: 0 auto;
         text-align: left;
+
+        @media only screen and (max-width: $break-s) {
+            width: $width-s;
+        }
 	}
 
     &__subtext {
