@@ -43,11 +43,21 @@
 // *
 
 // ***
+// Scope
+// -----
+@import '_scope/_healthcheck.scss';
+// *
+
+// ***
 // Utilities
 // ---
 // The reset can be disabled if the application
 // this is written for already includes it.
 @import '_utilities/_reset.scss';
+
+@import '_utilities/_flex.scss';
+@import '_utilities/_columns.scss';
+@import '_utilities/_vert-center.scss';
 // *
 
 // ***
@@ -56,8 +66,6 @@
 @import '_objects/_body.scss';
 @import '_objects/_inline.scss';
 @import '_objects/_section.scss';
-@import '_objects/_flex.scss';
-@import '_objects/_columns.scss';
 @import '_objects/_content.scss';
 @import '_objects/_logo.scss';
 @import '_objects/_shape.scss';
@@ -65,7 +73,6 @@
 @import '_objects/_bullet.scss';
 @import '_objects/_footer.scss';
 @import '_objects/_main.scss';
-@import '_objects/_vert-center.scss';
 // *
 
 // ***

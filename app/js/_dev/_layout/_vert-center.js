@@ -43,10 +43,10 @@ function clearStyles(element, child) {
 }
 
 // Function applied to the following parent/child classes:
-vertCenter($('.o-vert-center'), '.o-vert-center__object');
+// vertCenter($('.o-vert-center'), '.o-vert-center__object');
 
 // On window resize clear previous styles then re-run the function.
 $(window).on('resize', function() {
-    clearStyles($('.o-vert-center'), $('.o-vert-center__object'));
-    vertCenter($('.o-vert-center'), '.o-vert-center__object');
+    // clearStyles($('.o-vert-center'), $('.o-vert-center__object'));
+    // vertCenter($('.o-vert-center'), '.o-vert-center__object');
 });
