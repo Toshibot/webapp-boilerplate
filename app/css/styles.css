@@ -818,16 +818,21 @@ body {
   .o-footer__content {
     width: 61.25em;
     margin: 0 auto;
-    text-align: left; }
+    text-align: center; }
     @media only screen and (max-width: 64em) {
       .o-footer__content {
         width: 100%; } }
+    .o-footer__content a:link,
+    .o-footer__content a:visited {
+      color: #fff;
+      text-decoration: none; }
   .o-footer__subtext {
     text-align: center;
     color: #999;
     padding-top: 25px;
     font-size: 12px; }
-    .o-footer__subtext a {
+    .o-footer__subtext a:link,
+    .o-footer__subtext a:visited {
       color: #999;
       text-decoration: none; }
 

@@ -13,10 +13,16 @@
 	&__content {
 		width: $width-m;
         margin: 0 auto;
-        text-align: left;
+        text-align: center;
 
         @media only screen and (max-width: $break-s) {
             width: $width-s;
+        }
+
+        a:link,
+        a:visited {
+            color: $color-white;
+            text-decoration: none;
         }
 	}
 
@@ -26,7 +32,8 @@
         padding-top: $size-base;
         font-size: 12px;
 
-        a {
+        a:link,
+        a:visited {
             color: $color-grey;
             text-decoration: none;
         }
