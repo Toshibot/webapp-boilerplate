@@ -54,9 +54,10 @@
 // The reset can be disabled if the application
 // this is written for already includes it.
 @import '_utilities/_reset.scss';
-
+// Structure
 @import '_utilities/_flex.scss';
 @import '_utilities/_grid.scss';
+@import '_utilities/_padding.scss';
 @import '_utilities/_columns.scss';
 @import '_utilities/_vert-center.scss';
 // *

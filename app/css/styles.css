@@ -551,6 +551,36 @@ table {
   .u-offset-11\/12\@sm {
     margin-left: 91.66667%; } }
 
+.u-padding {
+  padding: 25px; }
+
+.u-padding-col {
+  padding: 0 25px; }
+
+@media only screen and (max-width: 41.6875em) {
+  .u-padding\@sm {
+    padding: 25px; } }
+
+@media only screen and (min-width: 41.6875em) and (max-width: 75em) {
+  .u-padding\@md {
+    padding: 25px; } }
+
+@media only screen and (min-width: 75em) {
+  .u-padding\@lg {
+    padding: 25px; } }
+
+@media only screen and (max-width: 41.6875em) {
+  .u-padding-col\@sm {
+    padding: 0 25px; } }
+
+@media only screen and (min-width: 41.6875em) and (max-width: 75em) {
+  .u-padding-col\@md {
+    padding: 0 25px; } }
+
+@media only screen and (min-width: 75em) {
+  .u-padding-col\@lg {
+    padding: 0 25px; } }
+
 .u-col * {
   box-sizing: border-box;
   -webkit-flex: 0 0 auto;
@@ -1255,7 +1285,9 @@ body {
   @media only screen and (max-width: 64em) {
     .o-footer {
       height: auto;
-      padding: 50px 0; } }
+      padding: 50px 0;
+      float: left;
+      width: 100%; } }
   .o-footer__content {
     width: 61.25em;
     margin: 0 auto;
