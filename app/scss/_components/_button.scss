@@ -26,4 +26,14 @@
         vertical-align: text-bottom;
         display: inline-block;
     }
+
+    .t-light & {
+        color: $color-white;
+        background-color: $color-black;
+    }
+
+    .t-dark & {
+        color: $color-black;
+        background-color: $color-white;
+    }
 }

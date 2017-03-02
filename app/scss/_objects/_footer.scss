@@ -40,4 +40,18 @@
             text-decoration: none;
         }
     }
+
+    .t-dark & {
+        color: $color-white;
+        background-color: $color-grey-dark;
+
+        &__subtext {
+            color: $color-white;
+
+            a:link,
+            a:visited {
+                color: $color-grey;
+            }
+        }
+    }
 }
