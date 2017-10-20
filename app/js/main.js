@@ -59,6 +59,7 @@ $(window).on('resize', function() {
 // Variables
 var gitButton = document.getElementById('js-button-github');
 
+// Git Button
 gitButton.addEventListener('click', function(){
     window.open('https://github.com/Toshibot/webapp-boilerplate', '_blank');
 });
