@@ -2,7 +2,7 @@
 // Utilities
 
 // Px to Rem Converter
-@mixin toRems($size) {
+@function toRems($size) {
   $remSize: $size / 16px;
   @return #{$remSize}rem;
 }

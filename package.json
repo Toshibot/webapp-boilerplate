@@ -5,8 +5,7 @@
   "main": "gulpfile.js",
   "dependencies": {
     "browser-sync": "^2.24.5",
-    "chart.js": "^2.7.2",
-    "gulp": "^4.0.0",
+    "gulp": "^3.9.1",
     "gulp-cli": "^2.0.1",
     "gulp-sass": "^4.0.1"
   },
